@@ -10,6 +10,17 @@
         "type": "cds.String"
       }
     },
+    "CatalogService.hi": {
+      "kind": "action",
+      "params": {
+        "name": {
+          "type": "cds.String"
+        }
+      },
+      "returns": {
+        "type": "cds.String"
+      }
+    },
     "cds.outbox.Messages": {
       "kind": "entity",
       "elements": {

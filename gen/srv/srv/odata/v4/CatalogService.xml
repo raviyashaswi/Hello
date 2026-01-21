@@ -18,10 +18,15 @@
       </Annotation>
       <EntityContainer Name="EntityContainer">
         <FunctionImport Name="hello" Function="CatalogService.hello"/>
+        <ActionImport Name="hi" Action="CatalogService.hi"/>
       </EntityContainer>
       <Function Name="hello" IsBound="false" IsComposable="false">
         <ReturnType Type="Edm.String"/>
       </Function>
+      <Action Name="hi" IsBound="false">
+        <Parameter Name="name" Type="Edm.String"/>
+        <ReturnType Type="Edm.String"/>
+      </Action>
     </Schema>
   </edmx:DataServices>
 </edmx:Edmx>
